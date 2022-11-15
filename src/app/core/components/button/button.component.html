@@ -1,0 +1,4 @@
+ <button type="button" [disabled]="isDisabled"  (click)="clickButton($event)" [class]="customButton.class">
+    <mat-icon *ngIf="customButton.icon">{{customButton.icon}}</mat-icon>
+{{customButton.text}}
+</button>

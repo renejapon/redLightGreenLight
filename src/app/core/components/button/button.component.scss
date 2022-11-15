@@ -1,0 +1,25 @@
+.btn-{
+    &register{
+        border:0; 
+        background-color: blueviolet;
+        color:white; 
+        padding: 10px 20px;
+        border-radius: 50px 0 ;
+        &:not(:disabled){
+            box-shadow: 5px 5px 2px;
+            
+        }
+            &:disabled{
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        cursor: pointer;
+    }
+    &right{
+        border:1px solid red; 
+    }
+    &left{
+        border:1px solid red; 
+
+    }
+}

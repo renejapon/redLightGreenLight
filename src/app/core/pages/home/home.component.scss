@@ -1,0 +1,26 @@
+.register-user, h2,p{
+    margin: 0 auto; 
+    width: 500px; 
+    text-align: center;
+}
+.icon-user .mat-icon{
+font-size: 80px;
+width: 80px;
+height: 80px;
+}
+h2{
+    margin-bottom: 30px;
+}
+.mat-form-field-name{
+    ::ng-deep .mat-form-field-flex{
+        padding-bottom: .75em ;
+        color:white;
+    }
+    
+    border:1px solid black; 
+    border-radius: 20px;
+    margin-bottom: 10px;
+    ::placeholder{
+        color:white;
+    }
+}

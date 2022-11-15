@@ -1,0 +1,8 @@
+<h2>Create player name</h2>
+<p class="icon-user"><mat-icon>account_circle</mat-icon></p>
+<form class="register-user" [formGroup]="myForm">
+  <mat-form-field class="mat-form-field-name" appearance="fill" floatLabel="always">
+    <input matInput [formControl]="name" placeholder="Tu nombre"/>
+  </mat-form-field><br>
+  <app-button [customButton]="myButton" [isDisabled]="myForm.invalid"  (buttonValue)="valueButton($event)"></app-button>
+</form>
